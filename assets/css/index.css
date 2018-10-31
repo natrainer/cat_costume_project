@@ -1,5 +1,181 @@
-body {
-  margin: 0;
+body, html {
+    height: 100%;
+    background-color: #ffffff;
+    margin: 0;
+    font-family: "PT Sans Narrow", sans-serif;
+}
+
+h1 {
+  display: block;
+  font-weight: 700;
+  text-align: center;
+  color: #323232;
+  font-size: 8vw;
+  margin-bottom: 0;
+  margin-top: 1%;
+}
+
+h2 {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  color: #00897f;
+  font-size: 6vw;
+  margin-bottom: 0;
+  margin-top: 1%;
+}
+
+h3 {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 4vw;
+  margin-bottom: 0;
+  margin-top: 1%;
+}
+
+p {
+    font-family: "PT Serif", serif;
+    color: #323232;
+    font-size: 4vw;
+    font-weight: 300;
+}
+
+strong {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  color: #323232;
+  font-size: 4.5vw;
+  margin-bottom: 0;
+}
+
+.navbar {
+    font-size: 18px;
+    border: 1px solid #ffffff;
+    padding-bottom: 10px;
+}
+
+.main-nav {
+    list-style-type: none;
+}
+.nav-links,
+.logo {
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+}
+
+
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+
+
+.main-nav li {
+    text-align: center;
+    margin: 15px auto;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+    padding: 2%;
+}
+
+
+.hero-image {
+  background-image: url("/Users/drwhosc/CoderGirl/cat_costume_project/assets/images/kats-hero-desktop-bg.jpg");
+  height: 50%;
+  width: : 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+img.img-ontop {
+  height: 95%;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 19px;
+
+}
+
+.cat_titude {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 6%;
+}
+
+.about {
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 6%;
+}
+
+.circle-cats {
+  background-color: #ffffff;
+  height: 50%;
+  width: : 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+img.img-cat3 {
+  height: 85%;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 9%;
+
+}
+
+.contact {
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 6%;
+}
+
+.contact p {
+  line-height: 2;
+}
+
+.contact strong {
+  font-weight: 700;
+}
+
+.map {
+  background-image: url("/Users/drwhosc/CoderGirl/cat_costume_project/assets/images/kats-map.jpg");
+  height: 50%;
+  width: : 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bar {
+  background-color: #00897f;
+  display: block;
+  text-align: center;
+  padding: 6%;
+}
+
+.oragne {
+  display: inline-flex;
+  color: #ff6a00;
 }
 
 /* On devices wider than 660px */
