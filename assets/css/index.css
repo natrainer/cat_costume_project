@@ -10,7 +10,7 @@ h1 {
   font-weight: 700;
   text-align: center;
   color: #323232;
-  font-size: 8vw;
+  font-size: 7.3vw;
   margin-bottom: 0;
   margin-top: 1%;
 }
@@ -50,41 +50,39 @@ strong {
   margin-bottom: 0;
 }
 
-.navbar {
-    font-size: 18px;
-    border: 1px solid #ffffff;
-    padding-bottom: 10px;
+a {
+  text-decoration: none;
 }
 
-.main-nav {
+ul {
     list-style-type: none;
-}
-.nav-links,
-.logo {
-    text-decoration: none;
-    color: #000000;
-    text-align: center;
-}
-
-
-.main-nav {
-    list-style-type: none;
-    display: none;
-}
-
-
-.main-nav li {
-    text-align: center;
-    margin: 15px auto;
-}
-.logo {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 22px;
-    padding: 2%;
 }
 
+li a {
+  display: block;
+  color: #00897f;
+  font-size: 14pt;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+    color: #ff6a00;
+}
+
+li {
+  display: none;
+  text-align: center;
+}
+
+li.logo {
+  display: block;
+}
 
 .hero-image {
   background-image: url("/Users/drwhosc/CoderGirl/cat_costume_project/assets/images/kats-hero-desktop-bg.jpg");
@@ -102,7 +100,7 @@ img.img-ontop {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 19px;
+  padding-top: 18px;
 
 }
 
@@ -111,6 +109,7 @@ img.img-ontop {
   flex-direction: column;
   justify-content: space-around;
   padding: 6%;
+  padding-bottom: 2%;
 }
 
 .about {
@@ -137,7 +136,19 @@ img.img-cat3 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 9%;
+}
 
+img.img-cat2 {
+  display: none;
+}
+
+img.img-cat1 {
+  display: none;
+}
+
+
+.get-in-touch {
+  display: none;
 }
 
 .contact {
@@ -145,6 +156,7 @@ img.img-cat3 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  text-align: center;
   padding: 6%;
 }
 
@@ -178,10 +190,228 @@ img.img-cat3 {
   color: #ff6a00;
 }
 
+
 /* On devices wider than 660px */
 @media(min-width: 660px) {
+h1 {
+  font-size: 5vw;
+  }
+
+h2 {
+  font-size: 3.5vw;
+  margin-top: 5%;
+  }
+
+h3 {
+  font-size: 4vw;
+  }
+
+p {
+  font-size: 1.85vw;
+  padding-left: 12%;
+  padding-right: 12%;
+  }
+
+strong {
+  font-size: 2vw;
+  }
+
+li {
+  display: block;
+  float: right;
 }
+
+li.logo {
+  float: left;
+}
+
+.about {
+  background-color: #ffffff;
+  }
+
+.about_desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  padding-top: 0;
+  padding-bottom: 0;
+  }
+
+.kat {
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  margin-right: 2.5%;
+  padding: 2%;
+  }
+
+.mavis {
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2.5%;
+  padding: 2%;
+}
+
+.circle-cats {
+  height: 60%;
+}
+
+.circle_cats_desktop {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+  margin-top: 0;
+}
+
+img.img-cat3 {
+  height: 40vw;
+  width: auto;
+  display: block;
+  padding: 1%;
+}
+
+img.img-cat2 {
+  height: 40vw;
+  width: auto;
+  display: block;
+  padding: 1%;
+  margin-top: 9%;
+}
+
+img.img-cat1 {
+  display: none;
+}
+
+.contact {
+  background-color: #eeeeee;
+}
+
+.get-in-touch {
+  text-align: center;
+}
+
+.contact_desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+  width: : 100vw;
+  padding: 5%;
+  padding-top: 0;
+}
+
+.biz-hrs {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin-right: 2.5%;
+  padding: 4%;
+}
+
+.contact-info {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2.5%;
+  padding: 2.5%;
+}
+.map {
+  height: 55%;
+}
+
+.bar {
+  padding: 3%;
+}
+
+}
+
 
 /* On devices wider than 940px */
 @media(min-width: 940px) {
+
+  h2 {
+    font-size: 3vw;
+    margin-bottom: 0;
+    margin-top: 7%;
+  }
+
+  h3 {
+    font-size: 3vw;
+  }
+
+  p {
+      font-size: 1.5vw;
+      font-weight: 300;
+      padding-left: 10%;
+      padding-right: 10%;
+  }
+
+  strong {
+    font-size: 1.75vw;
+  }
+
+  .hero-image {
+    background-image: url("/Users/drwhosc/CoderGirl/cat_costume_project/assets/images/kats-hero-desktop-bg.jpg");
+    height: 60%;
+  }
+
+  img.img-ontop {
+    height: 95%;
+    padding-top: 22.5px;
+  }
+
+  .kat {
+    padding-bottom: 5%;
+  }
+
+  .mavis {
+    padding-bottom: 5%;
+  }
+
+  .circle-cats {
+    height: 60%;
+    width: : 100vw;
+    padding-bottom: 8%;
+  }
+
+  .circle_cats_desktop {
+    padding: 10%;
+    padding-top: 0;
+
+  }
+
+  img.img-cat3 {
+    height: 30vw;
+    width: auto;
+    display: block;
+    padding: 1%;
+    margin-top: 9%;
+  }
+
+  img.img-cat2 {
+    height: 30vw;
+    width: auto;
+    display: block;
+    padding: 1%;
+    margin-top: 9%;
+  }
+
+  img.img-cat1 {
+    height: 30vw;
+    width: auto;
+    display: block;
+    padding: 1%;
+    margin-top: 9%;
+  }
+
+  .contact_desktop {
+    height: 30%;
+  }
+
 }
